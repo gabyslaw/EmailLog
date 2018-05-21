@@ -1,0 +1,75 @@
+14:01:28,433 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:03:51,684 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:07:29,659 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:21:47,607 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:24:54,894 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:29:22,592 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:40:45,908 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:42:34,227 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:42:46,084 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:43:13,363 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:44:07,590 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:44:48,916 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:49:24,629 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:55:46,422 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+14:58:55,869 [EmailLog.Controllers.HomeController] FATAL - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.HomeController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\HomeController.cs:line 45
+16:06:33,926 [EmailLog.Controllers.LogErrorController] ERROR - This is our error message 
+ 16:06:33,939 [EmailLog.Controllers.LogErrorController] FATAL - This was a terrible error 
+ 16:06:33,944 [EmailLog.Controllers.LogErrorController] DEBUG - Here again 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.LogErrorController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\LogErrorController.cs:line 25
+16:12:12,676 [EmailLog.Controllers.LogErrorController] ERROR - This is our error message 
+ 16:12:12,682 [EmailLog.Controllers.LogErrorController] FATAL - This was a terrible error 
+ 16:12:12,689 [EmailLog.Controllers.LogErrorController] DEBUG - Here again 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.LogErrorController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\LogErrorController.cs:line 25
+16:13:18,104 [EmailLog.Controllers.LogErrorController] ERROR - This is our error message 
+ 16:13:18,117 [EmailLog.Controllers.LogErrorController] FATAL - This was a terrible error 
+ 16:13:18,121 [EmailLog.Controllers.LogErrorController] DEBUG - Here again 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.LogErrorController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\LogErrorController.cs:line 25
+16:18:33,663 [EmailLog.Controllers.LogErrorController] ERROR - This is our error message 
+ 16:18:33,675 [EmailLog.Controllers.LogErrorController] FATAL - This was a terrible error 
+ 16:18:33,679 [EmailLog.Controllers.LogErrorController] DEBUG - Here again 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.LogErrorController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\LogErrorController.cs:line 25
+16:25:54,735 [EmailLog.Controllers.LogErrorController] ERROR - This is our error message 
+ 16:25:54,747 [EmailLog.Controllers.LogErrorController] FATAL - This was a terrible error 
+ 16:25:54,753 [EmailLog.Controllers.LogErrorController] DEBUG - Here again 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.LogErrorController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\LogErrorController.cs:line 25
+16:37:26,759 [EmailLog.Controllers.LogErrorController] ERROR - This is our error message 
+ 16:37:26,784 [EmailLog.Controllers.LogErrorController] FATAL - This was a terrible error 
+ 16:37:26,788 [EmailLog.Controllers.LogErrorController] DEBUG - Here again 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at EmailLog.Controllers.LogErrorController.Log4net() in C:\Users\gabys\source\repos\EmailLog\EmailLog\Controllers\LogErrorController.cs:line 25

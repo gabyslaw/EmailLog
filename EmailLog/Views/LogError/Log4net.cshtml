@@ -1,0 +1,128 @@
+﻿
+@{
+    ViewBag.Title = "Log4net";
+}
+
+
+<link href="~/Content/style.css" rel="stylesheet" />
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="nav-side-menu">
+    <div class="brand"><a href="@Url.Content("~/Home/Index")">Gabytech Email Log</a></div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+    <div class="menu-list">
+
+        <ul id="menu-content" class="menu-content collapse out">
+            <li>
+                <a href="@Url.Content("~/Home/Index")">
+                    <i class="fa fa-dashboard fa-lg"></i> Dashboard
+                </a>
+            </li>
+            <li data-toggle="collapse" data-target="#products" class="collapsed active">
+                <a href="#"><i class="fa fa-gift fa-lg"></i> Log Methods <span class="arrow"></span></a>
+            </li>
+            <ul class="sub-menu collapse" id="products">
+
+                <li><a href="@Url.Content("~/LogError/log4net")">Log4net error log</a></li>
+                <li><a href="@Url.Content("~/LogError/NLog")">NLog error log</a></li>
+
+            </ul>
+
+            <li data-toggle="collapse" data-target="#service" class="collapsed">
+                <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
+            </li>
+            <ul class="sub-menu collapse" id="service">
+                <li>Log SMS</li>
+                <li>Log Email</li>
+
+            </ul>
+
+            <li data-toggle="collapse" data-target="#new" class="collapsed">
+                <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
+            </li>
+            <ul class="sub-menu collapse" id="new">
+                <li>New New 1</li>
+
+            </ul>
+
+            <li>
+                <a href="#">
+                    <i class="fa fa-user fa-lg"></i> Profile
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-users fa-lg"></i> Users
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<h4>The error has been logged with log4net</h4>
+<div class="page-contentbar">
+    <!-- START PAGE CONTENT -->
+    <div id="page-right-content">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form class="form-horizontal" role="form" method="post" id="sendEmail">
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">Name</label>
+                                    <div class="col-md-10">
+                                        <input type="text" id="Name" name="Name" class="form-control" autofocus="autofocus">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">Email</label>
+                                    <div class="col-md-10">
+                                        <input type="text" class="form-control" placeholder="Email..." id="Email" name="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="example-email"> Subject</label>
+                                    <div class="col-md-10">
+                                        <input type="text" id="Subject" name="Subject" class="form-control" placeholder="Subject...">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">Message</label>
+                                    <div class="col-md-10">
+                                        <textarea rows="4" cols="50" type="text" class="form-control" placeholder="Type your Message here" id="Message" name="Message"></textarea>
+                                    </div>
+                                </div>
+                                @*<text type="text" class="form-control" placeholder="Type your Message here" id="Message" name="Message">*@
+                                @*<div class="col-md-2 control-label">
+
+                                        <div id="multiple">
+                                            <input type="file" class="multiple" name="files" multiple />
+                                        </div>
+
+
+
+                                    </div>*@
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div> <!-- end col -->
+            </div>
+        </div>
+        <!-- end container -->
+
+    </div>
+
+
+</div>

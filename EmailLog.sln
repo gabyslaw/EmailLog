@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailLog", "EmailLog\EmailLog.csproj", "{02C4AD79-E966-4B61-888F-79BAF2C1CE9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C4AD79-E966-4B61-888F-79BAF2C1CE9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C4AD79-E966-4B61-888F-79BAF2C1CE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C4AD79-E966-4B61-888F-79BAF2C1CE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C4AD79-E966-4B61-888F-79BAF2C1CE9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2879A13-741F-404D-99B0-DE54E1ECD4EA}
+	EndGlobalSection
+EndGlobal
